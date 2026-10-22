@@ -67,6 +67,10 @@ fun TampilData(
                             fontSize = 22.sp
                         )
                     }
+                    HorizontalDivider(
+                        thickness = dimensionResource(id = R.dimen.thickness_divider),
+                        color = Color.Cyan
+                    )
                 }
             }
         }
