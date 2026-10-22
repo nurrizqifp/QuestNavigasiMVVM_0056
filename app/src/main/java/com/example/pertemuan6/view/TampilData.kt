@@ -73,6 +73,8 @@ fun TampilData(
                     )
                 }
             }
+
+            Spacer(modifier = Modifier.height(10.dp))
         }
     }
 }
