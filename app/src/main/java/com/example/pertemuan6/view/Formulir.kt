@@ -34,4 +34,17 @@ fun FormIsian(
     jenisK: List<String> = listOf("Laki-laki", "Perempuan"),
     OnSubmitBtnClick: () -> Unit
 ) {
+    Scaffold(
+        modifier = Modifier.fillMaxSize(),
+        topBar = {
+            TopAppBar(
+                title = { Text("Form Isian", color = Color.White) },
+                colors = TopAppBarDefaults.mediumTopAppBarColors(
+                    containerColor = colorResource(id = R.color.teal_700)
+                )
+            )
+        }
+    ) { isiRuang ->
+
+    }
 }
