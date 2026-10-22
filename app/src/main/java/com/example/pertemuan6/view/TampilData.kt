@@ -54,6 +54,12 @@ fun TampilData(
                 .padding(all = dimensionResource(id = R.dimen.padding_medium)),
             verticalArrangement = Arrangement.SpaceBetween
         ) {
+            Column(
+                verticalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.padding_small))
+            ) {
+                items.forEach { item ->
+                }
+            }
         }
     }
 }
